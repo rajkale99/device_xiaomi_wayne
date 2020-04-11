@@ -25,7 +25,7 @@
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
 # Inherit PixelExperience product configuration
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/legion/config/common.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
@@ -45,6 +45,6 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200405.005/6254899:user/release
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := aosp_wayne
+PRODUCT_NAME := legion_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := MI 6X
